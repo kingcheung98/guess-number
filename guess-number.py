@@ -1,6 +1,10 @@
 import random
+start = input('minimum of random number period:')
+end = input('maximum of random number period:')
+start = int(start)
+end = int(end)
 
-r = random.randint(1,100)
+r = random.randint(start, end)
 count = 0 
 while True:
 	count += 1 #count + 1
